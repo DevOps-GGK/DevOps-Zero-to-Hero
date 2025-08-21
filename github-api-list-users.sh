@@ -1,21 +1,3 @@
-# #!/bin/bash
-
-# # Usage: ./github-api-list-users.sh <org> <repo> <github_token>
-# ORG="$1"
-# REPO="$2"
-# TOKEN="$3"
-
-# if [[ -z "$ORG" || -z "$REPO" || -z "$TOKEN" ]]; then
-#     echo "Usage: $0 <org> <repo> <github_token>"
-#     exit 1
-# fi
-
-# API_URL="https://api.github.com/repos/$ORG/$REPO/collaborators?permission=pull"
-
-# curl -s -H "Authorization: token $TOKEN" "$API_URL" | \
-#     jq -r '.[].login'
-
-
 #!/bin/bash
 
 # GitHub API URL
